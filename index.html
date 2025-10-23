@@ -3,31 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> <style>
-        h1{
-            color: white;
-            font-size: 70px;
+    <title>Document</title>
+    <style>
+        #banner{
+            background-image: url(f2.jpg) ;
+            background-repeat: no-repeat;
+        }
+        nav{
+            width:2000px;
+            height: 70px;
+            margin-top: 10px;
+        }
+        nav li{
+            float: center;
+            padding: 50px;
+            padding-left: 50px;
+            display:inline;
+        }
+        li {
+            list-style-type: none;
+        }
+        .clear{
+            clear: both;
+        }
+        #page{
+            width:1700px;
+            margin: 50auto;
+        }
+        header {
+            width: 2000px;
+            height: 60px;
+            margin-top: 30px;
+            border-bottom: solid 1px #ff4800;
+        }
+        #logo{
+            float: left;
+            margin: 0 0 20px 0;
+        }
+        #top{
+            float: right;
+            margin: 5px 140px 0 0;
+        }
+        h1 {
+             font-family: "Black Han Sans";
+            color: #3f3c73;
+            font-size: 30px;
             font-weight: bold;
         }
-      #p1{
-            font-size: 35px;
+         p {
             color: white;
-            font-weight: bold;
-        }
-         body{
-            font-family: 'Gasoek One';
-        }
-         p{
-            font-size: 15px;
-            line-height: 150%;
+            font-size: 25px;
          }
+         body{
+            align-content: center;
+            text-align: center;
+         }
+        
+
     </style>
 </head>
-<body  bgcolor="black">
-    <div style="text-align: center;">
-      <img src="CDF3.jpg" alt="가운데 정렬된 이미지">
-    </div>
-<h1>  &nbsp; COUNTDOWN FANTASY(2025-2026)</h1>
-<p id="p1"> &nbsp; &nbsp;&nbsp;&nbsp; <strong>카운트다운 판타지</strong></p>
+<body>
+   
+<div id="page">
+    <header>
+        <div id="logo">
+            <img src="Logo.png">
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="main.html"><img src="m1.png"> </a></li>
+            <li><a href="main2.html"><img src="m2.png"></a></li>
+            <li><a href="main3.html"><img src="m3.png"></a></li>
+            <li><a href="main4.html"><img src="m4.png"></a></li>
+            <li><a href="main5.html"><img src="m5.png"></a></li>
+        </ul>
+    </nav>
+<div id="banner">
+    <img src="f3.jpg"
+</div>
+<h1>우리에게 친숙한 물고기 "금붕어"</h1>
+    <h3>친숙하지만 막상 잘 알지는 못하는 금붕어에 대해 소개할게요!</h3>
+    <div class="clear"></div>
+</div>
 </body>
 </html>
